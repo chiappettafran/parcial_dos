@@ -1,0 +1,39 @@
+{
+margin: 0;
+padding: 0;
+}
+
+.container__principalHeader{
+  width: 100vw;
+  height: 8vh;
+  background-color: #4751dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__contentHeader{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem;
+}
+.inputHeader{
+  border-radius: 0.4rem;
+  border: none;
+  padding: 0.4rem;
+  outline: none;
+  height: 2vh;
+  width: 20vw;
+  font-size: 2vh;
+}
+.buttonSearch{
+  border: 1px solid;
+  background-color: transparent;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  width: 0.4rem;
+  color: white;
+}
+.buttonSearch:hover {
+  cursor: pointer;
+}
